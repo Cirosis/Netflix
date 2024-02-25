@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0px 100px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding-top: 100px;
+}
+
+/**/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px 0px 0px;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+input{
+    background: none;
+    color: white;
+    border: 2px solid #a7a7a7;
+    border-radius: 5px;
+    width: 280px;
+    height: 10px;
+    padding: 15px 20px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+/**/
+.title{
+    width: 600px;
+}
+
+span{
+    background-color: red;
+    border-radius: 3px;
+    padding: 0px 5px;
+    color: white;
+}
+
+h4{
+    color: gray;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+/**/
+.btns a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.play{
+    background-color: red;
+    border: 2px solid red;
+}
+
+.mylist{
+    border: 2px solid #1a1a1a;
+}
+
+.play:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+}
+
+.mylist:hover{
+    background-color: #1a1a1a;
+}
+
+.btns{
+    padding: 50px 0px;
+}
+
+/**/
+.trailer{
+    display: flex;
+    cursor: pointer;
+    width: 234px;
+}
+
+.trailerimg{
+    width: 50px;
+    padding: 5px 10px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+}
+
+/**/
+.imagen{
+    padding-top: 30px;
+}
